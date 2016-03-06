@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+     <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/bFarmerSave"
+        android:visibility="invisible"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#2ce511"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_weight="0.03"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:textColor="#60acd3"
+        android:text="Optimizer"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:textColorHighlight="#177EE8"
+        android:textColorHint="#177EE8"
+        android:textColorLink="#177EE8"
+        android:id="@+id/tvStartTop" />
+     </FrameLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_weight="0.22"
+        android:focusableInTouchMode="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:background="@mipmap/ic_launcher"
+            android:id="@+id/ivSelf"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="63dp"
+            android:layout_marginEnd="63dp"
+            android:src="@mipmap/start5" />
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:text="Self"
+            android:textColor="#b55038"
+            android:layout_below="@+id/ivSelf"
+            android:layout_alignLeft="@+id/ivSelf"
+            android:layout_alignStart="@+id/ivSelf"
+            android:gravity="center"
+            android:layout_alignRight="@+id/ivSelf"
+            android:layout_alignEnd="@+id/ivSelf"
+            android:textSize="20dp"
+            android:id="@+id/tvSelf"/>
+
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:background="@mipmap/ic_launcher"
+            android:id="@+id/ivFarmer"
+            android:layout_marginLeft="56dp"
+            android:layout_marginStart="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/start2"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:text="Farmer"
+            android:textColor="#b66714"
+            android:layout_below="@+id/ivFarmer"
+            android:layout_alignLeft="@+id/ivFarmer"
+            android:layout_alignStart="@+id/ivFarmer"
+            android:gravity="center"
+            android:layout_alignRight="@+id/ivFarmer"
+            android:layout_alignEnd="@+id/ivFarmer"
+            android:textSize="20dp"
+            android:id="@+id/tvFarmer"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etfarmer"
+            android:layout_alignBottom="@+id/tvFarmer"
+            android:layout_alignLeft="@+id/tvFarmer"
+            android:layout_alignStart="@+id/tvFarmer"
+            android:layout_alignRight="@+id/ivFarmer"
+            android:layout_alignEnd="@+id/ivFarmer"
+            android:text="Enter Name"
+            android:visibility="invisible"
+            android:singleLine="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_weight="0.03"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="Appliance control"
+        android:textSize="30dp"
+        android:textColor="#60acd3"
+        android:gravity="center_horizontal"
+        android:textColorHighlight="#177EE8"
+        android:textColorHint="#177EE8"
+        android:textColorLink="#177EE8" />
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_weight="0.22">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:background="@mipmap/ic_launcher"
+            android:id="@+id/ivLongRange"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="63dp"
+            android:layout_marginEnd="63dp"
+            android:src="@mipmap/start1" />
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:text="Long range"
+            android:textColor="#bc931e"
+            android:layout_below="@+id/ivLongRange"
+            android:layout_alignLeft="@+id/ivLongRange"
+            android:layout_alignStart="@+id/ivLongRange"
+            android:gravity="center"
+            android:layout_alignRight="@+id/ivLongRange"
+            android:layout_alignEnd="@+id/ivLongRange"
+            android:textSize="20dp"
+            android:id="@+id/tvLongRange"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:background="@mipmap/ic_launcher"
+            android:id="@+id/ivShortRange"
+            android:layout_marginLeft="56dp"
+            android:layout_marginStart="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/start" />
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:text="Short range"
+            android:textColor="#675731"
+            android:layout_below="@+id/ivShortRange"
+            android:layout_alignLeft="@+id/ivShortRange"
+            android:layout_alignStart="@+id/ivShortRange"
+            android:gravity="center"
+            android:layout_alignRight="@+id/ivShortRange"
+            android:layout_alignEnd="@+id/ivShortRange"
+            android:textSize="20dp"
+            android:id="@+id/tvShortRange"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="0.69"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_weight="0.38"
+            android:text="See time consumption details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTimeConsumption"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="25dp"
+            android:background="#60acd3"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="0dp"
+            android:layout_margin="4dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+        <TextView
+            android:layout_weight="0.38"
+            android:text="Parental control"
+            android:layout_below="@+id/tvTimeConsumption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="25dp"
+            android:background="#60acd3"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tvParentalControl"
+            android:layout_marginBottom="5dp"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+</LinearLayout>

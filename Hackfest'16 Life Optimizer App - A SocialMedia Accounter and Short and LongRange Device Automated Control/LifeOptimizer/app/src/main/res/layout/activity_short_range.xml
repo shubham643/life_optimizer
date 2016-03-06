@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/bshortok"
+        android:layout_gravity="center_horizontal"
+        android:background="#8eff17"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Control Electrical Appliances"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:textSize="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_weight="0.06" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Via Bluetooth"
+        android:id="@+id/textView31"
+        android:layout_alignBottom="@+id/horizontalScrollView2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Set Time:"
+        android:id="@+id/textView32"
+        android:layout_weight="0.06"
+        android:gravity="bottom" />
+
+    <EditText
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etshortbhour"
+        android:hint="HH"
+        android:text="00" />
+
+    <EditText
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etshortbmin"
+        android:layout_gravity="center_horizontal"
+        android:hint="MM"
+        android:text="00" />
+
+    <EditText
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etshortbsec"
+        android:layout_gravity="right"
+        android:hint="SS"
+        android:text="00" />
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="00:00:00"
+        android:id="@+id/tvshortbtime"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09"
+        android:textSize="40dp"
+        android:gravity="center|center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Via Audio Jack Connection"
+        android:id="@+id/bgbbfssfb"
+        android:layout_alignBottom="@+id/horizontalScrollView2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Set Time:"
+            android:id="@+id/textView33"
+            android:layout_weight="0.06"
+            android:gravity="bottom" />
+
+        <EditText
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etshortaudh"
+            android:hint="HH"
+            android:text="00" />
+
+        <EditText
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etshortaudm"
+            android:layout_gravity="center_horizontal"
+            android:hint="MM"
+            android:text="00" />
+
+        <EditText
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etshortauds"
+            android:layout_gravity="right"
+            android:hint="SS"
+            android:text="00" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="00:00:00"
+        android:id="@+id/tvshortaud"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09"
+        android:textSize="40dp"
+        android:gravity="center|center_horizontal" />
+</LinearLayout>

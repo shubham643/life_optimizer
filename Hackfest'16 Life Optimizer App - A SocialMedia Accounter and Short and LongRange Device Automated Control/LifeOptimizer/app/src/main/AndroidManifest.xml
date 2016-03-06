@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thenewboston.lifeoptimizer" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StartList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.STARTLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Farmer"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FARMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Self"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SELF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShortRange"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SHORTRANGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LongRange"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LONGRANGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TimeConsumption"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TIMECONSUMPTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ParentalControl"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PARENTALCONTROL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewboston.lifeoptimizer.ParentalPreview"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".ParentalLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PARENTALLOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Bluetooth"
+            android:label="@string/title_activity_bluetooth" >
+        </activity>
+        <activity
+            android:name=".BTModule"
+            android:label="@string/title_activity_btmodule" >
+        </activity>
+        <receiver android:name=".WidgetProvider1"
+            android:label="Life Optimizer">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.android.FirstWidget.arrow_left"/>
+                <action android:name="com.android.FirstWidget.arrow_right"/>
+
+            </intent-filter>
+        <meta-data
+            android:name="android.appwidget.provider"
+            android:resource="@xml/widget_info"/>
+        </receiver>
+
+    </application>
+
+</manifest>

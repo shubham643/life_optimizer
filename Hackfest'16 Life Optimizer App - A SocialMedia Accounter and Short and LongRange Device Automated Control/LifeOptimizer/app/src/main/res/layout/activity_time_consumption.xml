@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Last Week Time Consumption"
+        android:id="@+id/toplogin"
+        android:textColor="#FFFFFF"
+        android:background="#4467DE"
+        android:textSize="25dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toplogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/whatsapp2"
+                    android:layout_below="@+id/toplogin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="00:00:00"
+                    android:textSize="25dp"
+                    android:id="@+id/tvv1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="10dp"
+                    android:id="@+id/tv1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/facebook"
+                    android:layout_below="@+id/toplogin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="00:00:00"
+                    android:textSize="25dp"
+                    android:id="@+id/tvv2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="10dp"
+                    android:id="@+id/tv2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/instapng"
+                    android:layout_below="@+id/toplogin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="00:00:00"
+                    android:textSize="25dp"
+                    android:id="@+id/tvv3"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="10dp"
+                    android:id="@+id/tv3"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/chrome"
+                    android:layout_below="@+id/toplogin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="00:00:00"
+                    android:textSize="25dp"
+                    android:id="@+id/tvv4"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="10dp"
+                    android:id="@+id/tv4"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/hike"
+                    android:layout_below="@+id/toplogin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="00:00:00"
+                    android:textSize="25dp"
+                    android:id="@+id/tvv5"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="40dp"
+                    android:id="@+id/tv5"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/quora1"
+                    android:layout_below="@+id/toplogin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="00:00:00"
+                    android:textSize="25dp"
+                    android:id="@+id/tvv6"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="40dp"
+                    android:id="@+id/tv6"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/clashofclans"
+                    android:layout_below="@+id/toplogin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="00:00:00"
+                    android:textSize="25dp"
+                    android:id="@+id/tvv7"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="40dp"
+                    android:id="@+id/tv7"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/snapchat1"
+                    android:layout_below="@+id/toplogin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="00:00:00"
+                    android:textSize="25dp"
+                    android:id="@+id/tvv8"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="40dp"
+                    android:id="@+id/tv8"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/tiwttr"
+                    android:layout_below="@+id/toplogin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="00:00:00"
+                    android:textSize="25dp"
+                    android:id="@+id/tvv9"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="40dp"
+                    android:id="@+id/tv9"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/other"
+                    android:layout_below="@+id/toplogin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="00:00:00"
+                    android:textSize="25dp"
+                    android:id="@+id/tvv10"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="40dp"
+                    android:id="@+id/tv10"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:elegantTextHeight="false"
+                    android:shadowColor="#FFFFFF"
+                    android:phoneNumber="false"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textColorLink="#FFFFFF"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
