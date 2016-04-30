@@ -6,10 +6,13 @@ Moreover, the app saves your unproductive time losses in switching On/Off of Ele
 
 
 Features:      
-1)  Time analyzing features:    
+<br>
+1)  Time analyzing features:
     a) Daily time consumption on different applications and placing limitations on consumption by some features like repeated alarms, sending e-mail/ SMS to parents.      
     b) Lock screen widgets for on/off each task made by user (example television), showing total time consumed in that task and placing limitations on it.    
     c) Weekly report of our consumption details.    
+<br>
+<br>
 2)  Time saving features:    
     a) Controlling electrical devices by Bluetooth/ SMS/ Wifi or a Cabel inserted in the audio jack.    
     b) Security alarming system.   
